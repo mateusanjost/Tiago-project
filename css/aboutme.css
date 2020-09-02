@@ -1,0 +1,15 @@
+.pantera-negra {
+    width: 30%;
+    float: left;
+}
+.justify-content-end {
+    margin-top: 1em;
+    padding-bottom: 5em;
+    padding-right: 50%;
+}
+body {
+    background: url(../assets/bg-pantera.png) no-repeat;
+}
+.container {
+    color: white;
+}

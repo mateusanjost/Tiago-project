@@ -1,0 +1,115 @@
+.pantera-negra {
+    width: 30%;
+    float: left;
+}
+.justify-content-end {
+    margin-top: 1em;
+    padding-bottom: 5em;
+    padding-right: 50%;
+}
+body {
+    background: url(../assets/bg-pantera.png) no-repeat;
+}
+body { 
+	font:12px/16px sans-serif;
+	letter-spacing:1px;
+	position:relative;
+}
+#wrapper {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    position: absolute;
+    top: -202px;
+    left: 80em;
+    height: 1300px;
+    max-width: 0em !important;
+}
+#navigation{
+	background:#fff;
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	position: absolute;
+	top:200px;
+	right:250px;
+	z-index:101;
+}
+#navigation ul{
+	text-align:right;
+	list-style:none;
+	position:relative;
+	width:250px;
+}
+.one{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.two{
+	background:#ccc;
+	letter-spacing:3px;
+	position:absolute;
+	top:170px;
+	right:0px;
+}
+.three{
+	background:#7F7F7F;
+	position:absolute;
+	top:340px;
+	right:0px;
+	color:#fff;
+	
+}
+.four{
+	position:absolute;
+	top:510px;
+	right:0px;
+	color:#fff;
+}
+.five{
+	position:absolute;
+	top:680px;
+	right:0px;
+	color:#fff;
+}
+h1{
+	color:#08344d;
+	font:100px/50px  Verdana, Arial, Helvetica, sans-serif;
+	position: absolute;
+	top:300px;
+    right: 1em;
+	z-index:1;
+    width:800px;   
+    z-index: 555555555555;
+	
+}
+
+button.btn.btn-light {
+    position: absolute;
+    margin-top: 50em;
+    margin-left: 5em;
+}
+.fade, .fade:not(.show){
+	color:#fff;
+	opacity: 1;
+
+}
+#content{
+	width:850px;
+	position: absolute;
+	top:410px;
+	right:250px;
+	z-index:100;
+
+}
+#content p{
+	width:150px;
+	float:left;
+	margin:0 20px 0 0;
+}
+.highlight{
+	background:#08344d;
+	color:#ccc;
+	line-height:24px;
+}
